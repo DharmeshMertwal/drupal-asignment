@@ -1,0 +1,20 @@
+name: Asignment Theme
+type: theme
+description: Drupal Asignment custom theme to render plugin block passed data
+core_version_requirement: ^8 || ^9
+libraries:
+  - asignment_theme/global-styling
+
+base theme: classy
+regions:
+  branding: Branding
+  navigation: Main Navigation
+  search: Search
+  featured: Featured
+  content: Content
+  right_sidebar: Right Sidebar
+  footer_first: Footer First
+  footer_second: Footer Second
+  footer_third: Footer Third
+  footer_bottom: Footer Bottom
+  

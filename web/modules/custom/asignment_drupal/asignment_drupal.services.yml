@@ -1,4 +1,3 @@
 services:
   asignment_drupal.asignment_service:
     class: Drupal\asignment_drupal\AsignmentService
-    arguments: ['@current_user']
